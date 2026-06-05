@@ -3,13 +3,162 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Omar Orea</title>
+  <meta name="description" content="Chef Omar Orea — Cocina mexicana contemporánea.">
+  <title>Chef Omar Orea</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <h1>Omar Orea</h1>
-  <p>Chef mexicano contemporáneo.</p>
+  <nav class="nav">
+    <a href="#" class="nav-logo">Omar Orea</a>
+    <ul class="nav-links">
+      <li><a href="#cocina">La Cocina</a></li>
+      <li><a href="#trayectoria">Trayectoria</a></li>
+      <li><a href="#formacion">Formación</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-content">
+      <p class="hero-eyebrow">Sous Chef · Madrid</p>
+      <h1>Omar<br>Orea</h1>
+      <p class="hero-sub">Cocina mexicana contemporánea con alma y precisión.</p>
+    </div>
+    <a href="#cocina" class="scroll-hint" aria-label="Desplazarse hacia abajo">
+      <span></span>
+    </a>
+  </section>
+
+  <section class="statement">
+    <blockquote>
+      La cocina es memoria, técnica y carácter.
+      Cada plato debe honrar el origen sin renunciar a la evolución.
+    </blockquote>
+  </section>
+
+  <section id="cocina" class="cocina">
+    <div class="section-intro">
+      <p class="section-eyebrow">La Cocina</p>
+      <h2>Ingredientes de temporada.<br>Técnica sin concesiones.</h2>
+    </div>
+
+    <div class="pillars">
+      <article class="pillar">
+        <span class="pillar-num">01</span>
+        <h3>Origen</h3>
+        <p>
+          Raíces mexicanas en cada decisión. Chiles, maíz, hierbas —
+          respetados, no decorados.
+        </p>
+      </article>
+      <article class="pillar">
+        <span class="pillar-num">02</span>
+        <h3>Técnica</h3>
+        <p>
+          Formación en Le Cordon Bleu y ejecución de precisión en partidas
+          de pescados, carnes y cocina caliente.
+        </p>
+      </article>
+      <article class="pillar">
+        <span class="pillar-num">03</span>
+        <h3>Visión</h3>
+        <p>
+          Menús que cuentan una historia. Experiencias diseñadas
+          para sorprender sin perder identidad.
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <section class="visual-break">
+    <div class="visual-panel">
+      <div class="visual-overlay"></div>
+      <p class="visual-caption">Cada servicio, una obra.</p>
+    </div>
+  </section>
+
+  <section id="trayectoria" class="trayectoria">
+    <div class="section-intro">
+      <p class="section-eyebrow">Trayectoria</p>
+      <h2>Años en la cocina.<br>Un solo estándar.</h2>
+    </div>
+
+    <div class="moments">
+      <article class="moment moment--featured">
+        <p class="moment-place">Velasco Abella · Madrid</p>
+        <h3>Sous Chef</h3>
+        <span class="moment-badge">1 Estrella Michelin</span>
+        <p class="moment-desc">
+          Mise en place en partida caliente, línea de pescados y carnes,
+          y manipulación de productos del mar. Parte del equipo que sirvió
+          a 250 comensales en el Palacio Real de Madrid.
+        </p>
+      </article>
+      <article class="moment">
+        <p class="moment-place">Ocordia</p>
+        <h3>Chef Ejecutivo y Socio</h3>
+        <p class="moment-desc">
+          Creación y estandarización de menú, gestión de compras y almacén,
+          y capacitación del equipo en conservación al vacío.
+        </p>
+      </article>
+      <article class="moment">
+        <p class="moment-place">Lengua Sagrada</p>
+        <h3>Chef Ejecutivo y Socio</h3>
+        <p class="moment-desc">
+          Desarrollo de menú, formación culinaria del personal y
+          cumplimiento de lineamientos del Distintivo H.
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <section id="formacion" class="formacion">
+    <div class="section-intro">
+      <p class="section-eyebrow">Formación</p>
+      <h2>Base sólida.<br>Visión propia.</h2>
+    </div>
+
+    <div class="studies">
+      <article class="study">
+        <p class="study-place">Le Cordon Bleu · Madrid</p>
+        <h3>Diploma de Cocina Francesa</h3>
+        <p class="study-desc">2022 — 2023</p>
+      </article>
+      <article class="study">
+        <p class="study-place">Universidad del Claustro de Sor Juana</p>
+        <h3>Estudios de Gastronomía</h3>
+        <p class="study-desc">2017 — 2021</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="visual-break visual-break--alt">
+    <div class="visual-panel">
+      <div class="visual-overlay"></div>
+      <p class="visual-caption">Tradición. Fuego. Evolución.</p>
+    </div>
+  </section>
+
+  <section id="contacto" class="contact">
+    <div class="contact-inner">
+      <p class="section-eyebrow">Contacto</p>
+      <h2>Trabajemos juntos.</h2>
+      <p class="contact-text">
+        Colaboraciones, consultoría gastronómica o nuevos proyectos —
+        siempre abierto a conversar.
+      </p>
+      <a href="mailto:chef@omarorea.com" class="contact-link">chef@omarorea.com</a>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Omar Orea</p>
+  </footer>
 
   <script src="script.js"></script>
 </body>
